@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.imagen_logo{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px
+}
+li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    margin-top: 100px;
+    border-top: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 1000px;
+}
+
+.ig{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    float: right
+
+}
+#aviso{
+    float: left;
+}
+video{
+    height: 25%;
+    width: 24%;
+    margin-left: 15px;
+}
+.principal{
+    margin-top: 169px;
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.imagen_logo{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px
+}
+li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#foto_principal{
+    display: block;
+    margin: 0 auto;
+    width: 100%;  
+    margin-top: 169px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: orange;
+    font-family: flame;
+}
+.texto_principal{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    margin-top: 100px;
+    border-top: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.ig{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    float: right
+
+}
+#aviso{
+    float: left;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: flame ; 
+    src: url(/Fuentes/Fire.ttf) format(truetype); 
+}

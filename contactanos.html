@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Union Malagueña</title>
+    <link rel="stylesheet" href="Estilos/estilos_contactanos.css">
+    <link rel="shortcut icon" href="Imagenes/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="barra">
+                <img src="Imagenes/logo_union_chico.jpg" alt="Union Malagueña" class="imagen_logo">
+        <br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="plantilla.html">Plantilla</a></li>
+                <li><a href="jugadas_destacadas.html">Jugadas Destacadas</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="principal">
+        <form action="/action_page.php">
+            <fieldset>
+            <legend><b>Contacto</b></legend>
+            <label for="fprofe">Nombre y Apellidos:</label>
+            <input required type="text" id="fprofe" name="aula" value=""><br>
+            <label for="femail">Correo electrónico:</label>
+            <input required type="email" id="femail" name="email" value=""><br>
+            <label for="fdepartamento">Que quires:</label>
+            <select required id="fdepartamento" name="departamento">
+                <option value="informatica">Informacion</option>
+                <option value="matematicas">Entrenar</option>
+                <option value="lengua">Ser entrenador</option>
+            </select><br>
+            <label for="fdescripcion">Descrición:</label>
+            <textarea required name="descripcion" id="fdescripcion"></textarea><br>
+            <label for="fimagen">Titulos de entrenador (opcional):</label><br>
+            <input type="file" id="fimagen" name="Imagen_incidencia"><br>
+            <input class="boton" type="submit" value="Enviar incidencia">
+            <input class="boton" type="reset" value="Borrar incidencia">
+            </fieldset>
+        </form>
+        <div class="mapa">
+            <h1><b><u>Donde nos encontramos:</u></b></h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.4560016025684!2d-4.4554308237067355!3d36.708859672842344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7655ec9d8d5%3A0x415e1604c1c8e63c!2sI.E.S.%20Rafael%20P%C3%A9rez%20Estrada!5e1!3m2!1ses!2ses!4v1733776664572!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p><b><u>Gmail:</u></b> unionmalagueña@gmail.com</p>
+        <p><b><u>Instagram:</u></b> <a id="ig" href="https://www.instagram.com/cd_unionvoleibol/">Instagram</a></p>
+        <p><b><u>WhatsApp:</u></b>+34 654677813</p>
+    </div>
+    <footer>
+        <a target="_blank" href="https://www.instagram.com/cd_unionvoleibol/"><img class="ig" src="Imagenes/instagram-1581266_1280-removebg-preview.png" alt="logo instagram"></a>
+        <p id="aviso">2024 Unión Malagueña. Todos los derechos reservados. </p>
+    </footer>
+</body>
+</html>

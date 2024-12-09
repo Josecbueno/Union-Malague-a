@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.imagen_logo{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px
+}
+li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    margin-top: 100px;
+    border-top: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0px;
+}
+
+.ig{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+#aviso{
+    float: left;
+}
+.principal{
+margin-top: 169px;
+margin-left: 675px;
+}
+table, th, td{
+    text-align: center;
+    padding:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+}
+td > img{
+width: 100px;
+height: 100px;
+box-shadow: 0px 0px 20px black;
+}
